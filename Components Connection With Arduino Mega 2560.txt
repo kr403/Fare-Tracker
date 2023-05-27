@@ -1,0 +1,37 @@
+Components Connection With Arduino Mega 2560
+
+Gps
+Name: U-Blox NEO-6M GPS Module
+VCC->VCC
+RX->16
+TX->17
+GND->GND
+
+Display Adapter
+Name: I2C LCD Adapter Module
+GND->GND
+VCC->VCC
+SDA->20
+SCL->21
+
+RFID Scanner
+Name: RC522 RFID Card Reader Module Kit Android NFC supported
+SDA->53
+SCK->52
+MOSI->51
+MISO->50
+IRQ->
+GND->GND
+RST->49
+3.3V->VCC
+
+Storage Adapter
+Name: Arduino MicroSD Card Module
+CS->7
+SCK->52
+MOSI->51
+MISO->50
+VCC->VCC
+GND->GND
+
+
